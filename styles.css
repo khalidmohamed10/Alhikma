@@ -1,0 +1,867 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navigation Bar Styles */
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: #2980b9;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 90%;
+    background: #2980b9;
+    margin: auto;
+}
+
+nav .navbar .logo a {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .navbar .menu {
+    display: flex;
+}
+
+.navbar .menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* Reset some default styles */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+
+/* MAIN SECTION */
+
+.main {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.main ol {
+    list-style-type: decimal;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 300px;
+    text-align: left;
+}
+
+.main ol li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.main h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+
+/* Style for the Submit Button */
+
+main .btn1 {
+    width: 100%;
+    /* Full width */
+    padding: 15px;
+    /* Space inside the button */
+    font-size: 16px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    text-align: center;
+    /* Center text */
+    color: white;
+    /* Text color */
+    background-color: #007bff;
+    /* Background color */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth transition */
+}
+
+
+/* Hover effect for the Submit Button */
+
+button.btn:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    transform: translateY(-3px);
+    /* Lift the button slightly */
+}
+
+
+/* Active state for the Submit Button */
+
+button.btn:active {
+    transform: translateY(0);
+    /* Reset the position */
+    background-color: #003f7f;
+    /* Even darker blue when pressed */
+}
+
+.main .btn:hover {
+    background-color: #c0392b;
+}
+
+
+/* WHY CHOOSE US SECTION */
+
+.why-choose-us {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.why-choose-us h2,
+.why-choose-us h3 {
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feature {
+    background-color: #f2f2f2;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.feature h4 {
+    font-size: 1.4rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.feature .translation {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+
+/* FEE SECTION */
+
+.fee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.price span:first-child {
+    display: block;
+    font-size: 30px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.price span:last-child {
+    display: block;
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.features li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.note p:first-child {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.note p {
+    color: #e74c3c;
+    font-size: 14px;
+}
+
+.button-price {
+    width: 100%;
+    /* Full width */
+    /* Space inside the button */
+    font-size: 16px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    text-align: center;
+    /* Center text */
+    color: white;
+    /* Text color */
+    background-color: #007bff;
+    /* Background color */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth transition */
+}
+
+.button-price:hover {
+    background-color: #0056b3;
+}
+
+
+/* CONTACT SECTION */
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px 20px;
+    background-color: #f2f2f2;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-form button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.contact-form button:hover {
+    background-color: #c0392b;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #2980b9;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 20px;
+}
+
+
+/* General section styles */
+
+#about,
+#why-choose-us,
+#courses,
+#contact {
+    padding: 40px;
+    /* Add padding to sections for breathing space */
+    background-color: #f9f9f9;
+    /* Light background for sections */
+    margin: 20px 0;
+    /* Space between sections */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    /* Subtle shadow for depth */
+}
+
+
+/* Section heading styles */
+
+#about h2,
+#why-choose-us h2,
+#courses h2,
+#contact h2 {
+    font-size: 28px;
+    /* Font size for headings */
+    color: #3a3a3a;
+    /* Dark color for headings */
+    text-align: center;
+    /* Center align headings */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* Space below headings */
+}
+
+
+/* Paragraph styles */
+
+#about p,
+#contact p {
+    font-size: 16px;
+    /* Font size for paragraphs */
+    color: #555;
+    /* Dark gray color for text */
+    line-height: 1.6;
+    /* Improved line height for readability */
+    text-align: center;
+    /* Center align paragraphs */
+}
+
+
+/* List styles */
+
+#why-choose-us ul,
+#courses ul {
+    list-style-type: none;
+    /* Remove default list style */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margin */
+}
+
+#why-choose-us ul li,
+#courses ul li {
+    background: #e7f4e4;
+    /* Light green background for list items */
+    padding: 15px;
+    /* Padding for list items */
+    margin: 10px 0;
+    /* Space between list items */
+    border-radius: 5px;
+    /* Rounded corners for list items */
+    font-size: 16px;
+    /* Font size for list items */
+    color: #333;
+    /* Dark color for text */
+    line-height: 1.5;
+    /* Improved line height for readability */
+}
+
+
+/* Strong text within lists */
+
+#why-choose-us ul li strong,
+#courses ul li strong {
+    color: #3a9a3a;
+    /* Color for strong text */
+}
+
+
+/* Link styles */
+
+a {
+    color: #3a9a3a;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+
+/* General section styles for Courses and Audience */
+
+#courses,
+#audience {
+    padding: 40px;
+    /* Add padding to sections for breathing space */
+    background-color: #f3f4f6;
+    /* Light background for sections */
+    margin: 20px 0;
+    /* Space between sections */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+
+/* Section heading styles */
+
+#courses h2,
+#audience h2 {
+    font-size: 28px;
+    /* Font size for headings */
+    color: #2c3e50;
+    /* Dark color for headings */
+    text-align: center;
+    /* Center align headings */
+    margin-bottom: 20px;
+    /* Space below headings */
+}
+
+
+/* Course box styles */
+
+.course,
+.audience-group {
+    background: #ffffff;
+    /* White background for course/audience boxes */
+    padding: 20px;
+    /* Padding for content */
+    margin: 15px 0;
+    /* Margin between boxes */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* Light shadow for depth */
+}
+
+
+/* Course title styles */
+
+.course h3,
+.audience-group h3 {
+    font-size: 22px;
+    /* Font size for course titles */
+    color: #2980b9;
+    /* Blue color for course titles */
+    margin-bottom: 10px;
+    /* Space below titles */
+}
+
+
+/* Paragraph styles */
+
+.course p,
+.audience-group p {
+    font-size: 16px;
+    /* Font size for paragraphs */
+    color: #34495e;
+    /* Dark gray color for text */
+    line-height: 1.6;
+    /* Improved line height for readability */
+}
+
+
+/* List styles within courses */
+
+.course ul {
+    list-style-type: disc;
+    /* Disc style for list */
+    padding-left: 20px;
+    /* Padding for list items */
+    margin: 10px 0;
+    /* Space around the list */
+}
+
+.course ul li {
+    font-size: 16px;
+    /* Font size for list items */
+    color: #34495e;
+    /* Dark gray color for list items */
+}
+
+
+/* Media query for responsiveness */
+
+@media (max-width: 768px) {
+    #courses,
+    #audience {
+        padding: 20px;
+        /* Adjust padding for smaller screens */
+    }
+    #courses h2,
+    #audience h2 {
+        font-size: 24px;
+        /* Smaller heading font size for mobile */
+    }
+    .course,
+    .audience-group {
+        padding: 15px;
+        /* Adjust padding for boxes */
+    }
+    .course h3,
+    .audience-group h3 {
+        font-size: 20px;
+        /* Smaller title font size for mobile */
+    }
+}
+
+
+/* General styles for the registration section */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+
+/* Registration Section */
+
+.registration {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.registration-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+
+
+/* Registration Form Styles */
+
+.registration-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+/* Submit Button */
+
+button.btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        padding: 15px;
+        margin: 10px;
+    }
+    button.btn {
+        padding: 12px;
+    }
+}
+
+
+/* Styles for the contact form */
+
+
+/* Contact Info Section */
+
+
+/* Ensure the section spans the full width of the page */
+
+.contact-info {
+    width: 100vw;
+    /* Full width of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Full viewport height */
+    padding: 40px;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+}
+
+
+/* The container within the section */
+
+.contact-info-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    /* Ensure the container does not exceed the max width */
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+.contact-info-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info-container ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .contact-info-container {
+        padding: 20px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info-container {
+        padding: 15px;
+        margin: 10px;
+    }
+}
+
+.error-message {
+    color: red;
+    /* Change color as needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    ;
+    /* Optional border */
+    background-color: #007bff;
+    /* Light red background */
+}
